@@ -5,7 +5,9 @@ function Resultat(props) {
     <>
       <div>
         <li>
-          <a href={props.lien}>{props.lien}</a>
+          <a href={props.lien} target="_blank">
+            {props.lien}
+          </a>
         </li>
       </div>
     </>
