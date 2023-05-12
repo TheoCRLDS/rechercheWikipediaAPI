@@ -2,7 +2,7 @@ import Menu from "../layouts/Menu/Menu";
 import Footer from "../layouts/Footer/Footer";
 import "./Search.css";
 import { useEffect, useState } from "react";
-import Resultat from "../App/Resultat/Resultat";
+import Resultat from "../Resultat/Resultat";
 function Search() {
   // Variables d'état
   const [search, setSearch] = useState("");
